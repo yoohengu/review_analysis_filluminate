@@ -1897,7 +1897,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "cryptography", specifier = ">=46.0.7" },
+    { name = "cryptography" },
     { name = "jupyter" },
     { name = "matplotlib" },
     { name = "numpy" },
