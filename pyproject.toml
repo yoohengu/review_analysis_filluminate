@@ -18,4 +18,5 @@ dependencies = [
     "xgboost",
     "sqlalchemy>=2.0.49",
     "pymysql>=1.1.2",
+    "cryptography",
 ]
