@@ -35,7 +35,7 @@ CREATE TABLE filluminate_reviews_001 (
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
     사진유무    BOOLEAN,
-    도움돼요    BIGINT
+    도움돼요    BIGINT,
     FOREIGN KEY (goodsNo) REFERENCES filluminate_products_001(goodsNo)
 );
 
@@ -68,7 +68,7 @@ CREATE TABLE filluminate_reviews_002 (
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
     사진유무    BOOLEAN,
-    도움돼요    BIGINT
+    도움돼요    BIGINT,
     FOREIGN KEY (goodsNo) REFERENCES filluminate_products_002(goodsNo)
 );
 
@@ -101,7 +101,7 @@ CREATE TABLE filluminate_reviews_003 (
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
     사진유무    BOOLEAN,
-    도움돼요    BIGINT
+    도움돼요    BIGINT,
     FOREIGN KEY (goodsNo) REFERENCES filluminate_products_003(goodsNo)
 );
 
@@ -135,7 +135,7 @@ CREATE TABLE travel_reviews_001 (
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
     사진유무    BOOLEAN,
-    도움돼요    BIGINT
+    도움돼요    BIGINT,
     FOREIGN KEY (goodsNo) REFERENCES travel_products_001(goodsNo)
 );
 
@@ -168,7 +168,7 @@ CREATE TABLE travel_reviews_002 (
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
     사진유무    BOOLEAN,
-    도움돼요    BIGINT
+    도움돼요    BIGINT,
     FOREIGN KEY (goodsNo) REFERENCES travel_products_002(goodsNo)
 );
 
@@ -201,7 +201,7 @@ CREATE TABLE travel_reviews_003 (
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
     사진유무    BOOLEAN,
-    도움돼요    BIGINT
+    도움돼요    BIGINT,
     FOREIGN KEY (goodsNo) REFERENCES travel_products_003(goodsNo)
 );
 
@@ -235,7 +235,7 @@ CREATE TABLE jemut_reviews_001 (
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
     사진유무    BOOLEAN,
-    도움돼요    BIGINT
+    도움돼요    BIGINT,
     FOREIGN KEY (goodsNo) REFERENCES jemut_products_001(goodsNo)
 );
 
@@ -268,7 +268,7 @@ CREATE TABLE jemut_reviews_002 (
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
     사진유무    BOOLEAN,
-    도움돼요    BIGINT
+    도움돼요    BIGINT,
     FOREIGN KEY (goodsNo) REFERENCES jemut_products_002(goodsNo)
 );
 
@@ -301,6 +301,6 @@ CREATE TABLE jemut_reviews_003 (
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
     사진유무    BOOLEAN,
-    도움돼요    BIGINT
+    도움돼요    BIGINT,
     FOREIGN KEY (goodsNo) REFERENCES jemut_products_003(goodsNo)
 );
