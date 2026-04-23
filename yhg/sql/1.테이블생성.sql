@@ -23,18 +23,19 @@ CREATE TABLE filluminate_products_001 (
 CREATE TABLE filluminate_reviews_001 (
     리뷰번호    BIGINT PRIMARY KEY,
     goodsNo  BIGINT,
+    리뷰타입    VARCHAR(50),
     작성자     VARCHAR(100),
     리뷰내용    TEXT,
     평점       BIGINT,
-    체험단     VARCHAR(10),
+    체험단     BOOLEAN,
     구매옵션    VARCHAR(200),
     키        BIGINT,
     몸무게     BIGINT,
     성별       VARCHAR(10),
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
-    사진유무    VARCHAR(10),
-    도움돼요    BIGINT,
+    사진유무    BOOLEAN,
+    도움돼요    BIGINT
     FOREIGN KEY (goodsNo) REFERENCES filluminate_products_001(goodsNo)
 );
 
@@ -55,18 +56,19 @@ CREATE TABLE filluminate_products_002 (
 CREATE TABLE filluminate_reviews_002 (
     리뷰번호    BIGINT PRIMARY KEY,
     goodsNo  BIGINT,
+    리뷰타입    VARCHAR(50),
     작성자     VARCHAR(100),
     리뷰내용    TEXT,
     평점       BIGINT,
-    체험단     VARCHAR(10),
+    체험단     BOOLEAN,
     구매옵션    VARCHAR(200),
     키        BIGINT,
     몸무게     BIGINT,
     성별       VARCHAR(10),
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
-    사진유무    VARCHAR(10),
-    도움돼요    BIGINT,
+    사진유무    BOOLEAN,
+    도움돼요    BIGINT
     FOREIGN KEY (goodsNo) REFERENCES filluminate_products_002(goodsNo)
 );
 
@@ -87,18 +89,19 @@ CREATE TABLE filluminate_products_003 (
 CREATE TABLE filluminate_reviews_003 (
     리뷰번호    BIGINT PRIMARY KEY,
     goodsNo  BIGINT,
+    리뷰타입    VARCHAR(50),
     작성자     VARCHAR(100),
     리뷰내용    TEXT,
     평점       BIGINT,
-    체험단     VARCHAR(10),
+    체험단     BOOLEAN,
     구매옵션    VARCHAR(200),
     키        BIGINT,
     몸무게     BIGINT,
     성별       VARCHAR(10),
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
-    사진유무    VARCHAR(10),
-    도움돼요    BIGINT,
+    사진유무    BOOLEAN,
+    도움돼요    BIGINT
     FOREIGN KEY (goodsNo) REFERENCES filluminate_products_003(goodsNo)
 );
 
@@ -120,18 +123,19 @@ CREATE TABLE travel_products_001 (
 CREATE TABLE travel_reviews_001 (
     리뷰번호    BIGINT PRIMARY KEY,
     goodsNo  BIGINT,
+    리뷰타입    VARCHAR(50),
     작성자     VARCHAR(100),
     리뷰내용    TEXT,
     평점       BIGINT,
-    체험단     VARCHAR(10),
+    체험단     BOOLEAN,
     구매옵션    VARCHAR(200),
     키        BIGINT,
     몸무게     BIGINT,
     성별       VARCHAR(10),
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
-    사진유무    VARCHAR(10),
-    도움돼요    BIGINT,
+    사진유무    BOOLEAN,
+    도움돼요    BIGINT
     FOREIGN KEY (goodsNo) REFERENCES travel_products_001(goodsNo)
 );
 
@@ -152,18 +156,19 @@ CREATE TABLE travel_products_002 (
 CREATE TABLE travel_reviews_002 (
     리뷰번호    BIGINT PRIMARY KEY,
     goodsNo  BIGINT,
+    리뷰타입    VARCHAR(50),
     작성자     VARCHAR(100),
     리뷰내용    TEXT,
     평점       BIGINT,
-    체험단     VARCHAR(10),
+    체험단     BOOLEAN,
     구매옵션    VARCHAR(200),
     키        BIGINT,
     몸무게     BIGINT,
     성별       VARCHAR(10),
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
-    사진유무    VARCHAR(10),
-    도움돼요    BIGINT,
+    사진유무    BOOLEAN,
+    도움돼요    BIGINT
     FOREIGN KEY (goodsNo) REFERENCES travel_products_002(goodsNo)
 );
 
@@ -184,18 +189,19 @@ CREATE TABLE travel_products_003 (
 CREATE TABLE travel_reviews_003 (
     리뷰번호    BIGINT PRIMARY KEY,
     goodsNo  BIGINT,
+    리뷰타입    VARCHAR(50),
     작성자     VARCHAR(100),
     리뷰내용    TEXT,
     평점       BIGINT,
-    체험단     VARCHAR(10),
+    체험단     BOOLEAN,
     구매옵션    VARCHAR(200),
     키        BIGINT,
     몸무게     BIGINT,
     성별       VARCHAR(10),
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
-    사진유무    VARCHAR(10),
-    도움돼요    BIGINT,
+    사진유무    BOOLEAN,
+    도움돼요    BIGINT
     FOREIGN KEY (goodsNo) REFERENCES travel_products_003(goodsNo)
 );
 
@@ -217,18 +223,19 @@ CREATE TABLE jemut_products_001 (
 CREATE TABLE jemut_reviews_001 (
     리뷰번호    BIGINT PRIMARY KEY,
     goodsNo  BIGINT,
+    리뷰타입    VARCHAR(50),
     작성자     VARCHAR(100),
     리뷰내용    TEXT,
     평점       BIGINT,
-    체험단     VARCHAR(10),
+    체험단     BOOLEAN,
     구매옵션    VARCHAR(200),
     키        BIGINT,
     몸무게     BIGINT,
     성별       VARCHAR(10),
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
-    사진유무    VARCHAR(10),
-    도움돼요    BIGINT,
+    사진유무    BOOLEAN,
+    도움돼요    BIGINT
     FOREIGN KEY (goodsNo) REFERENCES jemut_products_001(goodsNo)
 );
 
@@ -249,18 +256,19 @@ CREATE TABLE jemut_products_002 (
 CREATE TABLE jemut_reviews_002 (
     리뷰번호    BIGINT PRIMARY KEY,
     goodsNo  BIGINT,
+    리뷰타입    VARCHAR(50),
     작성자     VARCHAR(100),
     리뷰내용    TEXT,
     평점       BIGINT,
-    체험단     VARCHAR(10),
+    체험단     BOOLEAN,
     구매옵션    VARCHAR(200),
     키        BIGINT,
     몸무게     BIGINT,
     성별       VARCHAR(10),
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
-    사진유무    VARCHAR(10),
-    도움돼요    BIGINT,
+    사진유무    BOOLEAN,
+    도움돼요    BIGINT
     FOREIGN KEY (goodsNo) REFERENCES jemut_products_002(goodsNo)
 );
 
@@ -281,17 +289,18 @@ CREATE TABLE jemut_products_003 (
 CREATE TABLE jemut_reviews_003 (
     리뷰번호    BIGINT PRIMARY KEY,
     goodsNo  BIGINT,
+    리뷰타입    VARCHAR(50),
     작성자     VARCHAR(100),
     리뷰내용    TEXT,
     평점       BIGINT,
-    체험단     VARCHAR(10),
+    체험단     BOOLEAN,
     구매옵션    VARCHAR(200),
     키        BIGINT,
     몸무게     BIGINT,
     성별       VARCHAR(10),
     작성일     VARCHAR(50),
     만족도     VARCHAR(200),
-    사진유무    VARCHAR(10),
-    도움돼요    BIGINT,
+    사진유무    BOOLEAN,
+    도움돼요    BIGINT
     FOREIGN KEY (goodsNo) REFERENCES jemut_products_003(goodsNo)
 );
