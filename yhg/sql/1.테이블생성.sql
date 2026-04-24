@@ -18,7 +18,8 @@ CREATE TABLE filluminate_products_001 (
     조회수        BIGINT,
     누적판매수      BIGINT,
     리뷰수        BIGINT,
-    리뷰점수       BIGINT
+    리뷰점수       BIGINT,
+    판매상태       VARCHAR(20)
 );
 CREATE TABLE filluminate_reviews_001 (
     리뷰번호    BIGINT PRIMARY KEY,
@@ -51,7 +52,8 @@ CREATE TABLE filluminate_products_002 (
     조회수        BIGINT,
     누적판매수      BIGINT,
     리뷰수        BIGINT,
-    리뷰점수       BIGINT
+    리뷰점수       BIGINT,
+    판매상태        VARCHAR(20)
 );
 CREATE TABLE filluminate_reviews_002 (
     리뷰번호    BIGINT PRIMARY KEY,
@@ -84,7 +86,8 @@ CREATE TABLE filluminate_products_003 (
     조회수        BIGINT,
     누적판매수      BIGINT,
     리뷰수        BIGINT,
-    리뷰점수       BIGINT
+    리뷰점수       BIGINT,
+    판매상태        VARCHAR(20)
 );
 CREATE TABLE filluminate_reviews_003 (
     리뷰번호    BIGINT PRIMARY KEY,
@@ -118,7 +121,8 @@ CREATE TABLE travel_products_001 (
     조회수        BIGINT,
     누적판매수      BIGINT,
     리뷰수        BIGINT,
-    리뷰점수       BIGINT
+    리뷰점수       BIGINT,
+    판매상태        VARCHAR(20)
 );
 CREATE TABLE travel_reviews_001 (
     리뷰번호    BIGINT PRIMARY KEY,
@@ -151,7 +155,8 @@ CREATE TABLE travel_products_002 (
     조회수        BIGINT,
     누적판매수      BIGINT,
     리뷰수        BIGINT,
-    리뷰점수       BIGINT
+    리뷰점수       BIGINT,
+    판매상태        VARCHAR(20)
 );
 CREATE TABLE travel_reviews_002 (
     리뷰번호    BIGINT PRIMARY KEY,
@@ -184,7 +189,8 @@ CREATE TABLE travel_products_003 (
     조회수        BIGINT,
     누적판매수      BIGINT,
     리뷰수        BIGINT,
-    리뷰점수       BIGINT
+    리뷰점수       BIGINT,
+    판매상태        VARCHAR(20)
 );
 CREATE TABLE travel_reviews_003 (
     리뷰번호    BIGINT PRIMARY KEY,
@@ -218,7 +224,8 @@ CREATE TABLE jemut_products_001 (
     조회수        BIGINT,
     누적판매수      BIGINT,
     리뷰수        BIGINT,
-    리뷰점수       BIGINT
+    리뷰점수       BIGINT,
+    판매상태        VARCHAR(20)
 );
 CREATE TABLE jemut_reviews_001 (
     리뷰번호    BIGINT PRIMARY KEY,
@@ -251,7 +258,8 @@ CREATE TABLE jemut_products_002 (
     조회수        BIGINT,
     누적판매수      BIGINT,
     리뷰수        BIGINT,
-    리뷰점수       BIGINT
+    리뷰점수       BIGINT,
+    판매상태        VARCHAR(20)
 );
 CREATE TABLE jemut_reviews_002 (
     리뷰번호    BIGINT PRIMARY KEY,
@@ -284,7 +292,8 @@ CREATE TABLE jemut_products_003 (
     조회수        BIGINT,
     누적판매수      BIGINT,
     리뷰수        BIGINT,
-    리뷰점수       BIGINT
+    리뷰점수       BIGINT,
+    판매상태        VARCHAR(20)
 );
 CREATE TABLE jemut_reviews_003 (
     리뷰번호    BIGINT PRIMARY KEY,
