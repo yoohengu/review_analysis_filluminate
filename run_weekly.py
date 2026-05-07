@@ -17,7 +17,7 @@ from pathlib import Path
 # 경로 설정
 # ─────────────────────────────────────────────────────────────
 ROOT = Path(__file__).parent
-DATA_DIR = ROOT / "data"
+DATA_DIR = ROOT / "data_ghactions"
 MODELS_DIR = ROOT / "models"
 OUTPUTS_DIR = ROOT / "outputs"
 
