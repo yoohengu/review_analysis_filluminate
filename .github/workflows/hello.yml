@@ -1,0 +1,21 @@
+name: Hello World
+
+# 언제 실행할지 정의
+on:
+  workflow_dispatch:        # 수동 실행 버튼 활성화
+  push:
+    branches: [main]        # main 브랜치에 push되면 실행
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest  # 우분투 가상 머신 위에서 실행
+
+    steps:
+      - name: 인사
+        run: echo "Hello from GitHub Actions! 현재 UTC 시각은 $(date)"
+
+      - name: Python 버전 확인
+        run: python --version
+
+      - name: 한국 시간 출력
+        run: TZ=Asia/Seoul date
